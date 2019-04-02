@@ -44,4 +44,4 @@ const mapStatetoProps =({ authedUser, users }) =>{
   };
 }
 
-export default connect(mapStatetoProps, null, null, { pure: false })(NavBar)
+export default connect(mapStatetoProps)(NavBar)
